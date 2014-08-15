@@ -23,6 +23,7 @@
 				<td><spring:message code="name.label" /></td>
 				<td>
 					<form:input path="pacjenci.name" />
+                                        
                                         <form:errors path="pacjenci.name"/>
 				</td>
 			</tr>

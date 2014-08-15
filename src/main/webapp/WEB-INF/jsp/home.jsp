@@ -9,13 +9,15 @@
         <title>Przychodnia</title>
     </head>
     <body>
-        <div class="header"><h1>Witaj w przychodni!</h1>
+       
+        <div id="menu">    
         <ul>
 		<li>
-			<div id="przycisk"><a href="<c:url value="/addPacjenci.do" />" >Dodaj Pacjenta</a></div>
+			<div><a href="<c:url value="/addPacjenci.do" />" >Dodaj Pacjenta</a></div>
 		</li>
 		
 	</ul>
-        </div>
+       </div>
+          <div class="header"><h1>Witaj w przychodni</h1> </div>      
     </body>
 </html>
